@@ -31,10 +31,14 @@ $jour = date('l F d, Y');
 ?>
 
 <?php
+$day = date('l F d, Y');
+?>
+
+<?php
 $jour = date('d/m/Y', strtotime($jour));
 ?>
 <?php
-echo $jour;
+echo $day;
 echo $heure;
 echo $jour;
 ?>
