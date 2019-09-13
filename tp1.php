@@ -27,7 +27,7 @@ $heure = date('g:i a');
 ?>
 
 <?php
-$day = date('l F d, Y');
+$jour = date('l F d, Y');
 ?>
 
 <?php
