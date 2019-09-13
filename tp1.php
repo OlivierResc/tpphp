@@ -22,5 +22,9 @@ function end_page()
 <hr/><br/><strong>Test</strong><br/><hr/>
 
 <?php
+echo date('friday september 13, 2019');
+?>
+
+<?php
 end_page();
 ?>
