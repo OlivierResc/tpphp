@@ -20,5 +20,5 @@ function end_page()
 ?>
 
 <?php
-end_page;
+end_page();
 ?>
