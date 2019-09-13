@@ -22,7 +22,7 @@ function end_page()
 <hr/><br/><strong>Test</strong><br/><hr/>
 
 <?php
-echo date('l F d, Y', timestamp);
+echo date('l F d, Y', time());
 ?>
 
 <?php
