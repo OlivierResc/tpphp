@@ -22,11 +22,15 @@ function end_page()
 <hr/><br/><strong>Test</strong><br/><hr/>
 
 <?php
-echo date('Friday September 13, 2019');
+echo date('l F d, Y');
 ?>
 
 <?php
-$jour = date('Friday September 13, 2019');
+$jour = date('l F d, Y');
+?>
+
+<?php
+$jour = date('d/m/Y', strtotime('2020-04-01'));
 ?>
 
 <?php
