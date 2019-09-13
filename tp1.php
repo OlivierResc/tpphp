@@ -21,8 +21,9 @@ function end_page()
 
 <hr/><br/><strong>Test</strong><br/><hr/>
 
+
 <?php
-echo date('l F d, Y', 'g:i a');
+$heure = date('g:i a');
 ?>
 
 <?php
@@ -31,7 +32,10 @@ $jour = date('l F d, Y');
 
 <?php
 $jour = date('d/m/Y', strtotime($jour));
+echo $heure;
 ?>
+
+
 
 <?php
 end_page();
