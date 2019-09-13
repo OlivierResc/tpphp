@@ -26,7 +26,7 @@ echo date('friday september 13, 2019');
 ?>
 
 <?php
-$jour = date('l F d, Y');
+$jour = date('friday september 13, 2019');
 ?>
 
 <?php
