@@ -19,6 +19,8 @@ function end_page()
 };
 ?>
 
+<hr/><br/><strong>Test</strong><br/><hr/>
+
 <?php
 end_page();
 ?>
