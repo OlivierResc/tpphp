@@ -12,7 +12,7 @@ start_page('titre');
 ?>
 
 <?php
-function end_page
+function end_page()
 {
     echo '</body></html>'
     ;
