@@ -6,3 +6,7 @@ lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
     ;
 };
 ?>
+
+<?php
+start_page('titre');
+?>
