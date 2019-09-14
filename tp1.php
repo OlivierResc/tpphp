@@ -26,9 +26,6 @@ function end_page()
 $heure = date('g:i a');
 ?>
 
-<?php
-$jour = date('l F d, Y');
-?>
 
 <?php
 $day = date('l F d, Y');
@@ -38,9 +35,8 @@ $day = date('l F d, Y');
 $jour = date('d/m/Y', strtotime($jour));
 ?>
 <?php
-
-echo $heure;
 echo $jour;
+echo $heure;
 ?>
 
 
