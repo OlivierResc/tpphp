@@ -38,7 +38,7 @@ $day = date('l F d, Y');
 $jour = date('d/m/Y', strtotime($jour));
 ?>
 <?php
-echo $day; '<br>';
+echo $day . '<br>';
 echo $heure;
 echo $jour;
 ?>
