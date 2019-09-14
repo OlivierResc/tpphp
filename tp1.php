@@ -31,7 +31,7 @@ $jour = date('l F d, Y');
 ?>
 
 <?php
-$day = date('l F d, Y');
+$day = date('F d, Y');
 ?>
 
 <?php
