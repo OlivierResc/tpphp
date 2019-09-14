@@ -27,7 +27,7 @@ $heure = date('g:i a');
 ?>
 
 <?php
-$jour = date('l F d, Y');
+$jour_2 = date('l F d, Y');
 ?>
 
 <?php
@@ -36,6 +36,7 @@ $jour = date('d/m/Y', strtotime($jour));
 <?php
 echo $jour;
 echo $heure;
+echo $jour_2;
 ?>
 
 
