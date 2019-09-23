@@ -34,6 +34,7 @@ elseif('+' == $op)
 {
     $op1+$op2;
 }
+
 else
 {
     echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
