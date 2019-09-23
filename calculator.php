@@ -19,13 +19,16 @@ function end_page()
 start_page('calculator');
 ?>
 
-<input checked="checked" type="radio" name="op" value="*"/>*<br/>
-<input type="radio" name="op" value="+"/>+<br/>
-<input type="radio" name="op" value="-"/>-<br/>
-<input type="radio" name="op" value="/"/>/<br/>
 
 
-
+    <form action="calcul.php" method="post">
+        <input checked="checked" type="radio" name="op" value="*"/>*<br/>
+        <input type="radio" name="op" value="+"/>+<br/>
+        <input type="radio" name="op" value="-"/>-<br/>
+        <input type="radio" name="op" value="/"/>/<br/>
+        <input type="text" name="op1" value="submit"/>
+        <input type="text" name="op2" value="suppr"/>
+    </form>
 <hr/><br/><strong>Calclm</strong><br/><hr/>
 
 <?php
