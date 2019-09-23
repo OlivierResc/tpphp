@@ -24,4 +24,4 @@ function end_page()
 };
 ?>
 
-<hr/><br/><strong>Calcl</strong><br/><hr/>
+<hr/><br/><strong>Calclm</strong><br/><hr/>
