@@ -31,7 +31,7 @@ start_page('calculator');
         <input type="submit" name="op1" value="submit"/>
         <input type="reset" name="op2" value="suppr"/>
     </form>
-<hr/><br/><strong>Calclm</strong><br/><hr/>
+<hr/><br/><strong>Calcul</strong><br/><hr/>
 
 <?php
 end_page();
