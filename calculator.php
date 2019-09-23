@@ -22,14 +22,14 @@ start_page('calculator');
 
 
     <form action="calcul.php" method="post">
-        <input type="text" name="op"/><br/>
-        <input type="text" name="op"/><br/>
+        <input type="text" name="op1"/><br/>
+        <input type="text" name="op2"/><br/>
         <input checked="checked" type="radio" name="op" value="*"/>*<br/>
         <input type="radio" name="op" value="+"/>+<br/>
         <input type="radio" name="op" value="-"/>-<br/>
         <input type="radio" name="op" value="/"/>/<br/>
-        <input type="submit" name="op1" value="submit"/>
-        <input type="reset" name="op2" value="suppr"/>
+        <input type="submit"  value="submit"/>
+        <input type="reset" value="suppr"/>
     </form>
 
 <?php
