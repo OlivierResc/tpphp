@@ -28,9 +28,11 @@ $op = $_POST['op'];
 <?php
 if('*' == $op)
 {
+    $op1*$op2;
 }
 elseif('+' == $op)
 {
+    $op1+$op2;
 }
 else
 {
