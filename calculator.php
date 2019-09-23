@@ -26,8 +26,8 @@ start_page('calculator');
         <input type="radio" name="op" value="+"/>+<br/>
         <input type="radio" name="op" value="-"/>-<br/>
         <input type="radio" name="op" value="/"/>/<br/>
-        <input type="text" name="op1" value="submit"/>
-        <input type="text" name="op2" value="suppr"/>
+        <input type="submit" name="op1" value="submit"/>
+        <input type="reset" name="op2" value="suppr"/>
     </form>
 <hr/><br/><strong>Calclm</strong><br/><hr/>
 
