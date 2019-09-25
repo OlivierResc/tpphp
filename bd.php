@@ -6,7 +6,7 @@ or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 ?>
 
 <?php
-mysqli_select_db($dbLink , 'user')
+mysqli_select_db($dbLink , 'olivier-rescigno-portofolio_bd')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 ?>
