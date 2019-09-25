@@ -5,7 +5,12 @@
     <input type="password"value="Mot de passe"/> <br>
     <input type="password"value="Verif mdp"/> <br>
     <input type="text"value="Téléphone"/> <br>
-    <select></select> <br>
+    <select>
+        <option value="Coatie" </option>
+        <option value="Serbie" </option>
+        <option value="France" </option>
+        <option value="Japon" </option>
+    </select> <br>
     <input type="checkbox"value="Conditions d'utilisations"/> <br>
     <input type="submit"value="Bouton de soumission"/> <br>
 </form>
