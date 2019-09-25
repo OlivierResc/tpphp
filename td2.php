@@ -1,4 +1,4 @@
-<form action="calcul.php" method="post">
+<form action="" method="post">
     <input type="text" value="Identifiant"/> <br>
     <input type="radio" value="Civilité"/> <br>
     <input type="text"value="E-mail"/> <br>
