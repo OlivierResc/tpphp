@@ -1,7 +1,7 @@
 <form action="" method="post">
     <input type="text" placeholder="Identifiant"/> <br>
-    <input type="radio" value="Homme"/> Homme <br>
-    <input type="radio" value="Femme"/> Femme <br>
+    <input type="radio" value="Homme" name="Civilité" checked/> Homme <br>
+    <input type="radio" value="Femme" name="Civilité" checked/> Femme <br>
     <input type="text" placeholder="E-mail"/> <br>
     <input type="password" placeholder="Mot de passe"/> <br>
     <input type="password" placeholder="Verif mdp"/> <br>
