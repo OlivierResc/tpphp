@@ -12,6 +12,6 @@
         <option> France </option>
         <option> Japon </option>
     </select> <br>
-    <input type="checkbox" placeholder="Conditions d'utilisations"/> <br>
+    <input type="checkbox" value="Conditions d'utilisations"/> Conditions Générales <br>
     <input type="submit" placeholder="Bouton de soumission"/> <br>
 </form>
