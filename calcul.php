@@ -9,9 +9,9 @@ $action = $_POST['action'];
 echo $action;
 
 
-if('*' == $op)
+if('*' == $action)
 {
-    echo $op1 * $op2;
+    echo $action * $action;
 }
 elseif('+' == $op)
 {
