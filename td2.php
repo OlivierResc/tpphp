@@ -1,15 +1,11 @@
-<?php
-
-// Correspond à l’adresse IP de celui qui visualise la page.
-echo getenv('REMOTE_ADDR');
-// Correspond à l’adresse IP du serveur.
-echo getenv('HTTP_HOST');
-
-// Correspond au logiciel serveur Web utilisé.
-echo getenv('SERVER_SOFTWARE');
-
-?>
-
-<?php
-phpinfo();
-?>
+<form action="calcul.php" method="post">
+    <input type="text"/>
+    <input type="radio"/>
+    <input type="text"/>
+    <input type="password"/>
+    <input type="password"/>
+    <input type="text"/>
+    <select></select>
+    <input type="checkbox"/>
+    <input type="submit"/>
+</form>
