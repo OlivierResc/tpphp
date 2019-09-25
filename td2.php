@@ -8,7 +8,7 @@ include 'utils.inc.php';
     <input type="radio" value="Homme" name="Civilité" checked/> Homme <br>
     <input type="radio" value="Femme" name="Civilité" checked/> Femme <br>
     <input type="text" name="e" placeholder="E-mail"/> <br>
-    <input type="password" name="password" placeholder="Mot de passe"/> <br>
+    <input type="password" name="mdp" placeholder="Mot de passe"/> <br>
     <input type="password" placeholder="Verif mdp"/> <br>
     <input type="text" name="tel" placeholder="Téléphone"/> <br>
     <select>

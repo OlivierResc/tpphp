@@ -3,10 +3,9 @@ include 'utils.inc.php';
 ?>
 
 <?php
-$id = POST ['id'];
-$email= POST ['email'];
-$password= POST ['password'];
-$tel = POST ['tel'];
+$email= POST ['e'];
+$password= POST ['mdp'];
+$action = POST['action'];
 
 ?>
 
