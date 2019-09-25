@@ -6,12 +6,12 @@ $op2 = $_POST['op2'];
 $op = $_POST['op'];
 $action = $_POST['action'];
 
-echo $action;
+
 
 
 if('*' == $action)
 {
-    echo $action * $action;
+    echo $action;
 }
 elseif('+' == $op)
 {
