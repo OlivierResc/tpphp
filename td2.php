@@ -1,5 +1,5 @@
 <form action="" method="post">
-    <input type="text" value="Identifiant"/> <br>
+    <input type="text" placeholder="Identifiant"/> <br>
     <input type="radio" value="Civilité"/> <br>
     <input type="text"value="E-mail"/> <br>
     <input type="password"value="Mot de passe"/> <br>
