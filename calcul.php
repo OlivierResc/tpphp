@@ -11,7 +11,7 @@ $action = $_POST['action'];
 
 if('*' == $action)
 {
-    echo $action;
+    echo $op1 * $op2;
 }
 elseif('+' == $op)
 {
