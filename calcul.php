@@ -13,15 +13,15 @@ if('*' == $action)
 {
     echo $op1 * $op2;
 }
-elseif('+' == $op)
+elseif('+' == $action)
 {
     echo $op1 + $op2;
 }
-elseif('/' == $op)
+elseif('/' == $action)
 {
     echo $op1 / $op2;
 }
-elseif('-' == $op)
+elseif('-' == $action)
 {
     echo $op1 - $op2;
 }
