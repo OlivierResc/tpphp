@@ -6,10 +6,10 @@
     <input type="password"value="Verif mdp"/> <br>
     <input type="text"value="Téléphone"/> <br>
     <select>
-        <option value="Coatie" </option>
-        <option value="Serbie" </option>
-        <option value="France" </option>
-        <option value="Japon" </option>
+        <option Coatie </option>
+        <option Serbie </option>
+        <option France </option>
+        <option Japon </option>
     </select> <br>
     <input type="checkbox"value="Conditions d'utilisations"/> <br>
     <input type="submit"value="Bouton de soumission"/> <br>
