@@ -39,8 +39,11 @@ $operateurs = '*+-/';
         echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
         }
      ?>
-
-        <input type="submit"  value="submit"/>
+        <input type="submit" name="action" value="*"/>
+        <input type="submit" name="action" value="+"/>
+        <input type="submit" name="action" value="-"/>
+        <input type="submit" name="action" value="/"/>
+        <input type="submit" name="action" value="submit"/>
         <input type="reset" value="suppr"/>
     </form>
 
