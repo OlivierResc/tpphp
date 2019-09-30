@@ -19,9 +19,9 @@ if($action == 'mailer')
 {
 $message = 'Voici vos identifiants d\'inscription :' . PHP_EOL;
 $message .= 'Email : ' . $email . PHP_EOL;
-$message .= 'identifiant : ' . PHP_EOL . $id;
+$message .= 'Identifiant : ' . PHP_EOL . $id;
 $message .= 'Mot de passe : ' . PHP_EOL . $password;
-$message .= 'Téléphone : ' . PHP_EOL . $tel;
+$message .= 'Telephone : ' . PHP_EOL . $tel;
 $message .= 'Pays : ' . PHP_EOL . $pays;
 mail($email,'inscription', $message);
 echo '<br/><strong>Mail envoyé gros bg!</strong><br/>';
@@ -50,14 +50,17 @@ $today = date('Y-m-d');
 ?>
 
 <?php
-$query = 'INSERT INTO user (date, email , id, mdp, tel, pays, Cond, Civilité) VALUES (\'' . $today . '\' ,
-    \''. $email . '\',
-    \''. $id . '\',
-    \''. $password . '\',
-    \''. $pays . '\', 
-    \''. $tel . '\',  
-    \''. $Cond . '\',  
-    \''. $Civilite .'\' )';
+$query = 'INSERT INTO user (email, identifiant, mdp, tel, pays, Cond, Date, Civilité) 
+        VALUES ( \'' . $email . '\' ,
+         \'' . $id . '\',
+         \'' . $password. '\' ,
+         \'' . $tel . '\' ,
+         \'' . $pays . '\' ,
+         \'' . $today . '\' ,
+         \'' . $Civilite . '\' ,
+         \'' . $Cond . '\'
+         )';
+
 ?>
 
 <?php
