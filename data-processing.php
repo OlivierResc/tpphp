@@ -50,14 +50,14 @@ $today = date('Y-m-d');
 ?>
 
 <?php
-$query = 'INSERT INTO user (date, email , id, mdp, tel, pays, Cond, Civilité) VALUES (\'' . $today . '\' , \''
-    . $email . '\', , \''
-    . $id . '\', , \''
-    . $password . '\', , \''
-    . $pays . '\', , \''
-    . $tel . '\', , \''
-    . $Cond . '\', , \''
-    . $Civilité .'\' . )';
+$query = 'INSERT INTO user (date, email , id, mdp, tel, pays, Cond, Civilité) VALUES (\'' . $today . '\' ,
+    \''. $email . '\',
+    \''. $id . '\',
+    \''. $password . '\',
+    \''. $pays . '\', 
+    \''. $tel . '\',  
+    \''. $Cond . '\',  
+    \''. $Civilité .'\' )';
 ?>
 
 <?php
