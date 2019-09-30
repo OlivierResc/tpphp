@@ -24,7 +24,7 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 ?>
 
 <?php
-$query = "SELECT login, password FROM user WHERE login =  '$login' and password = '$password' ";
+$query = "SELECT identifiant, mdp FROM user WHERE user.identifiant =  '$login' and user.mdp = '$password' ";
 ?>
 
 <?php
