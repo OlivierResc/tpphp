@@ -8,7 +8,7 @@ $id= $_POST ['id'];
 $pays= $_POST ['pays'];
 $email= $_POST ['email'];
 $password= $_POST ['mdp'];
-$Civilité= $_POST ['Civilité'];
+$Civilite= $_POST ['Civilite'];
 $Cond= $_POST ['Cond'];
 $action = $_POST['action'];
 
@@ -57,7 +57,7 @@ $query = 'INSERT INTO user (date, email , id, mdp, tel, pays, Cond, Civilité) V
     \''. $pays . '\', 
     \''. $tel . '\',  
     \''. $Cond . '\',  
-    \''. $Civilité .'\' )';
+    \''. $Civilite .'\' )';
 ?>
 
 <?php
