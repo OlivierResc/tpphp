@@ -19,10 +19,10 @@ if($action == 'mailer')
 {
 $message = 'Voici vos identifiants d\'inscription :' . PHP_EOL;
 $message .= 'Email : ' . $email . PHP_EOL;
-$message .= 'Identifiant : ' . PHP_EOL . $id;
-$message .= 'Mot de passe : ' . PHP_EOL . $password;
-$message .= 'Telephone : ' . PHP_EOL . $tel;
-$message .= 'Pays : ' . PHP_EOL . $pays;
+$message .= 'Identifiant : ' . $id . PHP_EOL ;
+$message .= 'Mot de passe : ' . $password . PHP_EOL ;
+$message .= 'Telephone : ' . $tel . PHP_EOL ;
+$message .= 'Pays : ' . $pays . PHP_EOL ;
 mail($email,'inscription', $message);
 echo '<br/><strong>Mail envoyé gros bg!</strong><br/>';
 }
