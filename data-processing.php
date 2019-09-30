@@ -75,7 +75,7 @@ if(!($dbResult = mysqli_query($dbLink, $query)))
 }
 
 else{
-    echo '<br/><strong>Bonjour, Mickaël
+    echo '<br/><strong>Bonjour, bg
 Votre inscription a bien été enregistrée, merci.</stong><br/>';
 }
 ?>
