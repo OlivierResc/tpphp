@@ -12,7 +12,7 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 ?>
 
 <?php
-$query = 'SELECT id, email, date FROM user';
+$query = 'SELECT id, Identifiant, email, date FROM user';
 ?>
 
 <?php
