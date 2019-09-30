@@ -42,8 +42,9 @@ if(!($dbResult = mysqli_query($dbLink, $query)))
 <?php
 if($dbRow = mysqli_fetch_assoc($dbResult))
 {
-
-
-
+    header('Location: welcome.php');
+}
+else{
+    start_page('ereur');
 }
 ?>
