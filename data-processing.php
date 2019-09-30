@@ -56,9 +56,9 @@ $query = 'INSERT INTO user (email, identifiant, mdp, tel, pays, Cond, Date, Civi
          \'' . $password. '\' ,
          \'' . $tel . '\' ,
          \'' . $pays . '\' ,
+         \'' . $Cond . '\' ,
          \'' . $today . '\' ,
-         \'' . $Civilite . '\' ,
-         \'' . $Cond . '\'
+         \'' . $Civilite . '\'
          )';
 
 ?>
