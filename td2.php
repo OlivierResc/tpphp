@@ -5,8 +5,8 @@ include 'utils.inc.php';
 
 <form action="data-processing.php" method="post">
     <input type="text" name="id" placeholder="Identifiant"/> <br>
-    <input type="radio" value="Homme" name="Civilité" checked/> Homme <br>
-    <input type="radio" value="Femme" name="Civilité" checked/> Femme <br>
+    <input type="radio" value="Homme" name="Civilite" checked/> Homme <br>
+    <input type="radio" value="Femme" name="Civilite" checked/> Femme <br>
     <input type="text" name="email" placeholder="E-mail"/> <br>
     <input type="password" name="mdp" placeholder="Mot de passe"/> <br>
     <input type="password" placeholder="Verif mdp"/> <br>
