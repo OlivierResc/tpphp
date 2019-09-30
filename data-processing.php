@@ -60,7 +60,7 @@ $query = 'INSERT INTO user (email, mdp, tel, pays, Cond, Civilité, Identifiant,
          \'' . $id .'\',
          \'' . $today .'\'
          )';
-
+//
 ?>
 
 <?php
