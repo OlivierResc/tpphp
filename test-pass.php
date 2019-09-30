@@ -6,7 +6,7 @@ include 'utils.inc.php';
 $password = $_POST['password'];
 $login = $_POST ['login'];
 $action = $_POST['action'];
-
+$step = $_POST['step'];
 ?>
 
 
@@ -45,6 +45,6 @@ if($dbRow = mysqli_fetch_assoc($dbResult))
     header('Location: welcome.php');
 }
 else{
-    start_page('ereur');
+    header('Location: login.php');
 }
 ?>

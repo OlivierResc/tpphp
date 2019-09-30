@@ -2,6 +2,9 @@
 include 'utils.inc.php';
 ?>
 
+<?php
+echo $step;
+?>
 
 <form action="test-pass.php" method="post">
     <input type="text" name="login" placeholder="login"/> <br>
