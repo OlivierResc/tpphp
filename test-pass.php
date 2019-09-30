@@ -23,15 +23,27 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 ?>
 
-
+<?php
+$query = "SELECT login, password FROM user WHERE login =  '$login' and password = '$password' ";
+?>
 
 <?php
-if (condition)
+if(!($dbResult = mysqli_query($dbLink, $query)))
+{
+    echo 'Erreur de requête<br/>';
+// Affiche le type d'erreur.
+    echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+// Affiche la requête envoyée.
+    echo 'Requête : ' . $query . '<br/>';
+    exit();
+}
+?>
+
+<?php
+if($dbRow = mysqli_fetch_assoc($dbResult))
 {
 
-}
-else
-{
+
 
 }
 ?>
