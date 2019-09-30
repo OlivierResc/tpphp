@@ -17,6 +17,6 @@ include 'utils.inc.php';
         <option> France </option>
         <option> Japon </option>
     </select> <br>
-    <input type="checkbox" name="Cond" value="Conditions d'utilisations"/> Conditions Générales <br>
+    <input type="checkbox" name="Cond" value="Conditions"/> Conditions Générales <br>
     <input type="submit" name="action" value="mailer" placeholder="Bouton de soumission"/> <br>
 </form>
