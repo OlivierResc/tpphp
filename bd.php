@@ -33,7 +33,9 @@ while($dbRow = mysqli_fetch_assoc($dbResult))
 
     echo $dbRow['id'] . '<br/>';
     echo $dbRow['email'] . '<br/>';
-    echo $dbRow['date'] . '<br/>';
+    echo $dbRow['identifiant'] . '<br>';
+    echo date('d.m.Y', strtotime($dbRow['date']));
+
     echo '<br/><br/>';
 
 }
